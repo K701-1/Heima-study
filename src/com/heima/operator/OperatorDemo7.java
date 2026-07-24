@@ -9,7 +9,7 @@ public class OperatorDemo7 {
 
         10 + 8 +"岁" + 1 + 2     //18岁12     //出现字符串后，后面全都是拼接操作
          */
-        String a = "我";
+        char a = '我';
         System.out.println("字符串是" + a );
     }
 }

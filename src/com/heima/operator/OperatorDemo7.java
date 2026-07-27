@@ -13,3 +13,17 @@ public class OperatorDemo7 {
         System.out.println("字符串是" + a );
     }
 }
+
+/*
+自加：++
+自减：--
+
+int a = 10;
+
+a++;   //11
+a--;   //9
+
+++a;   //10
+--a;   //10
+
+*/

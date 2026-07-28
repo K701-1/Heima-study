@@ -1,6 +1,6 @@
 package com.heima.operator;
 
-public class OperatprDemo8 {
+public class OperatorDemo8 {
     public static void main(String[] args) {
 
     /*

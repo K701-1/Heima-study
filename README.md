@@ -3,6 +3,7 @@
 这是一个Java基础学习项目，包含了Java编程入门的核心知识点和示例代码。项目适合Java初学者，通过实际代码示例来学习Java编程的基础概念。
 
 ## 项目结构
+```
 heima/ 
 ├── src/ # 源代码目录 
 │ └── com/ 
@@ -13,6 +14,7 @@ heima/
 ├── 笔记/ # 学习笔记 
 ├── .gitignore # Git忽略文件 
 └── README.md # 项目说明文档
+```
 ## 模块说明
 
 ### 1. HelloWorld入门 (`com.heima.helloworld`)
@@ -65,11 +67,13 @@ heima/
 4. 选择"Run"或"Debug"运行程序
 
 ### 命令行运行
+```
 bash
 编译Java文件
 javac -d out src/com/heima/helloworld/HelloWorld.java
 运行程序
 java -cp out com.heima.helloworld.HelloWorld
+```
 
 ## 学习建议
 

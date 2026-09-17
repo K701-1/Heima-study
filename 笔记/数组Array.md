@@ -515,4 +515,4 @@ Arrays.copyOf(arr, 5);       // 拷贝并扩容为新长度
 | 搜索插入位置 | 二分查找，返回 `left` | SelfTest3 |
 
 ---
-*学习整理：基于 `src/com/heima/array` 目录下 15 个示例文件*
+*学习整理：基于 `src/com/basic/array` 目录下 15 个示例文件*

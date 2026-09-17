@@ -307,4 +307,4 @@ public static double getSum(int a, double b) { return a + b; }
 | 无参、有返回值 | ✘ ✔ | `public static double getPI(){ return 3.14; }`（示例，本批 Demo 未直接涉及） | —— |
 
 ---
-*学习整理：基于 `src/com/heima/method` 目录下 6 个示例文件（MethodDemo1 ~ MethodDemo6）*
+*学习整理：基于 `src/com/basic/method` 目录下 6 个示例文件（MethodDemo1 ~ MethodDemo6）*

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/heima.iml" filepath="$PROJECT_DIR$/heima.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic-code.iml" filepath="$PROJECT_DIR$/basic-code.iml" />
     </modules>
   </component>
 </project>

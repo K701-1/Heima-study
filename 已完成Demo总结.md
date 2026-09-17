@@ -7,10 +7,10 @@
 
 | 模块（包） | 对应知识点 | Demo 数量 | 状态 |
 | --- | --- | --- | --- |
-| `com.heima.helloworld` | Java 入门 | 1 | ✅ 已完成 |
-| `com.heima.varlable` | 变量 | 8 | ✅ 已完成 |
-| `com.heima.operator` | 运算符 | 16 | ✅ 已完成 |
-| `com.heima.ifdemo` | 条件判断（if） | 9 | ✅ 已完成 |
+| `com.basic.helloworld` | Java 入门 | 1 | ✅ 已完成 |
+| `com.basic.varlable` | 变量 | 8 | ✅ 已完成 |
+| `com.basic.operator` | 运算符 | 16 | ✅ 已完成 |
+| `com.basic.ifdemo` | 条件判断（if） | 9 | ✅ 已完成 |
 | **合计** | | **34** | **全部完成** |
 
 所有 Demo 均已提交至 Git，且 `out/` 目录下存在对应的 `.class` 编译产物，可直接运行。
@@ -19,13 +19,13 @@
 
 ## 二、模块详情
 
-### 1. Java 入门 — `com.heima.helloworld`（1 个）
+### 1. Java 入门 — `com.basic.helloworld`（1 个）
 
 | 文件 | 内容 |
 | --- | --- |
 | `HelloWorld.java` | Java 第一个程序：演示类结构、`main` 方法入口、注释写法，输出 `Hello,World!` |
 
-### 2. 变量 — `com.heima.varlable`（8 个）
+### 2. 变量 — `com.basic.varlable`（8 个）
 
 | 文件 | 内容 |
 | --- | --- |
@@ -38,7 +38,7 @@
 | `VariableDemo7.java` | 键盘录入两个整数并求和 |
 | `VariableDemo8.java` | 综合练习：键盘录入体重身高计算 BMI |
 
-### 3. 运算符 — `com.heima.operator`（16 个）
+### 3. 运算符 — `com.basic.operator`（16 个）
 
 | 文件 | 内容 |
 | --- | --- |
@@ -59,7 +59,7 @@
 | `OperatorDemo15.java` | 三元运算符：`条件 ? 表达式1 : 表达式2` 求两数较大值 |
 | `OperatorDemo16.java` | 运算符优先级：从左到右、小括号优先 |
 
-### 4. 条件判断 — `com.heima.ifdemo`（9 个）
+### 4. 条件判断 — `com.basic.ifdemo`（9 个）
 
 | 文件 | 内容 |
 | --- | --- |

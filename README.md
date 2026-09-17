@@ -30,42 +30,42 @@ heima/
 
 ## 模块说明
 
-### 1. HelloWorld 入门 (`com.heima.helloworld`，1 个)
+### 1. HelloWorld 入门 (`com.basic.helloworld`，1 个)
 - **HelloWorld.java**：Java 程序入口示例，演示类结构、`main` 方法与注释写法。
 
-### 2. 变量与基本数据类型 (`com.heima.varlable`，8 个)
+### 2. 变量与基本数据类型 (`com.basic.varlable`，8 个)
 - **VariableDemo1~8.java**：变量定义与使用、8 种基本数据类型、命名规则、注意事项、类型转换、`Scanner` 键盘录入，以及 BMI 等综合练习。
 
-### 3. 运算符 (`com.heima.operator`，16 个)
+### 3. 运算符 (`com.basic.operator`，16 个)
 - **OperatorDemo1~16.java**：算术运算符、数字拆分与时间换算、类型转换、ASCII 大小写转换、字符串拼接、赋值/关系/逻辑（含短路）运算符、三元运算符、运算符优先级，以及回文数、有缘数等综合练习。
 
-### 4. 条件判断 if (`com.heima.ifdemo`，9 个)
+### 4. 条件判断 if (`com.basic.ifdemo`，9 个)
 - **IfDemo1~9.java**：单分支、双分支、多分支 `else if`，布尔判断、书写细节（大括号风格、分号陷阱），以及外卖比价、优惠券满减、充值分档、BMI 分级等综合实战。
 
-### 5. 分支判断 switch (`com.heima.switchdemo`，6 个)
+### 5. 分支判断 switch (`com.basic.switchdemo`，6 个)
 - **SwitchDemo1~6.java**：`switch` 基本语法、`case` 穿透与 `break`、`switch` 的多种写法及与 `if` 的对比应用。
 
-### 6. for 循环 (`com.heima.loopfor`，7 个)
+### 6. for 循环 (`com.basic.loopfor`，7 个)
 - **ForDemo1~7.java**：`for` 循环语法、执行流程、基本应用与练习（求和、计数、遍历等）。
 
-### 7. while 循环 (`com.heima.loopwhile`，4 个)
+### 7. while 循环 (`com.basic.loopwhile`，4 个)
 - **WhileDemo1~4.java**：`while` 循环语法与应用，理解其与 `for` 的等价关系。
 
-### 8. do...while 循环 (`com.heima.loopdowhile`，1 个)
+### 8. do...while 循环 (`com.basic.loopdowhile`，1 个)
 - **DoWhileDemo.java**：`do...while` 语法，掌握"至少执行一次"的特点。
 
-### 9. 死循环 (`com.heima.infiniteloop`，1 个)
+### 9. 死循环 (`com.basic.infiniteloop`，1 个)
 - **InfiniteLoopDemo.java**：死循环的写法、成因及实际应用场景。
 
-### 10. 嵌套循环 (`com.heima.looploop`，9 个)
+### 10. 嵌套循环 (`com.basic.looploop`，9 个)
 - **Test1~9.java**：双重/多层循环的应用，如打印矩形、九九乘法表、图形打印等综合练习。
 
-### 11. 循环控制 (`com.heima.controllerloop`，8 个)
+### 11. 循环控制 (`com.basic.controllerloop`，8 个)
 - **BreakDemo1~3.java**：`break` 跳出循环、配合标记退出多层循环。
 - **ContinueDemo1~3.java**：`continue` 结束本次循环，进入下一次。
 - **Test1~2.java**：`break`/`continue` 综合练习。
 
-### 12. 数组 (`com.heima.array`，15 个)
+### 12. 数组 (`com.basic.array`，15 个)
 - **ArrayDemo1~5.java**：数组静态初始化、动态初始化、元素访问与修改、遍历、索引越界与边界检查。
 - **ArrayTest1~6.java**：查找元素是否存在、求最大值、交换变量、打乱数组、生成不重复随机数、有序数组去重（快慢指针）。
 - **ArraySelfTest.java**：生成不重复随机数的优化写法（`j < i` 查重）。
@@ -115,7 +115,7 @@ heima/
 javac -d out src/com/heima/helloworld/HelloWorld.java
 
 # 运行程序
-java -cp out com.heima.helloworld.HelloWorld
+java -cp out com.basic.helloworld.HelloWorld
 ```
 
 ## 学习建议

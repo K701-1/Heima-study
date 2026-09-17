@@ -3,7 +3,7 @@
   <component name="PrintToLogpointModuleInspectionState">
     <option name="disabledModuleNames">
       <set>
-        <option value="heima" />
+        <option value="basic-code" />
       </set>
     </option>
   </component>

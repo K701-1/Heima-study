@@ -1,4 +1,4 @@
-package com.oppadvanced.staticvariabletest1;
+package com.oppadvanced.staticvariabletest;
 
 public class Test {
     public static void main(String[] args) {

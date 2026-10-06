@@ -2,7 +2,7 @@
 
 这是一个 Java 基础学习项目，涵盖了从 Java 语法入门到面向对象编程的核心知识点与示例代码。项目适合 Java 初学者，通过大量循序渐进的代码示例配合中文笔记，帮助掌握 Java 编程的基础概念与面向对象思想。
 
-> 学习来源：黑马程序员 Java + AI 入门课程 ｜ 包路径：`com.basic.*`、`com.opp.*`、`com.oppadvanced.*`
+> 学习来源：黑马程序员 Java + AI 入门课程 ｜ 包路径：`com.basic.*`、`com.opp.*`、`com.opp_advanced.*`
 
 ## 项目结构
 
@@ -26,12 +26,13 @@ heima/
 │   │   └── test/                # 综合练习（2）
 │   ├── opp/                     # 面向对象基础（16 个文件，8 组示例）
 │   │   └── ooptest1 ~ opptest8  # 类与对象、封装、this、构造方法
-│   └── oppadvanced/             # 面向对象进阶与高级（33 个文件）
+│   └── opp_advanced/            # 面向对象进阶与高级（54 个文件）
 │       ├── staticvariabletest/  # static 成员变量（2）
 │       ├── finaltest/           # final 关键字（4）
 │       ├── enumtest/            # 枚举 enum（3）
 │       ├── toolclasstest/       # 静态工具类（2）
-│       └── oopextends/          # 继承、重写、多态（22）
+│       ├── oop_extends/         # 继承与方法重写（test1~test9，37）
+│       └── oop_polymorphic/     # 多态（6）
 ├── 笔记/                        # 学习笔记（Markdown）
 │   ├── Java基础/                # 8 篇
 │   └── 面向对象/                # 3 篇
@@ -104,18 +105,27 @@ heima/
 - **opptest7（Student）**：构造方法——空参与全参构造，理解 `new` 时自动调用及重载规则。
 - **opptest8（Student）**：标准 JavaBean 完整模板（私有属性 + 空参 + 全参 + set/get + 行为）。
 
-### 三、面向对象进阶与高级（`com.oppadvanced.*`）
+### 三、面向对象进阶与高级（`com.opp_advanced.*`，54 个文件）
 
+面向对象进阶：
 - **staticvariabletest（2 个）**：`static` 修饰成员变量（静态变量），理解共享、归属类、生命周期，推荐用 `类名.变量名` 调用。
 - **finaltest（4 个）**：`final` 关键字——修饰常量、对基本类型与引用类型的不同含义，以及用 `final` 定义 `Circle` 圆周率常量。
 - **enumtest（3 个）**：枚举 `enum`——`OrderState` 订单状态枚举的定义、构造私有化、`values()`/`valueOf()`，以及配合 `switch` 匹配。
 - **toolclasstest（2 个）**：静态方法与现代工具类——`ArrayUtil` 工具类（方法 `static` + 构造私有化），遍历打印数组与求平均分。
-- **oopextends（22 个，5 组）**：继承与多态——
+
+面向对象高级——继承（`oop_extends`，test1~test9，共 37 个）：
   - **test1**：`extends` 基本语法，子类继承父类属性与方法（`Person`/`Student`/`Teacher`）。
   - **test2**：多层继承体系（`SmartDevice` → `Phone`/`Computer` → `Android`/`Apple`）。
   - **test3**：继承中构造方法与成员变量的特点（`Fu`/`Zi`）。
   - **test4**：方法重写 `@Override`（`Gen1Phone` → `Gen3Phone` 演进）。
-  - **test5**：多态——父类引用指向子类对象，配合打折 `payment()` 场景。
+  - **test5**：方法重写应用——智能设备打折 `payment()`（`SmartDevice`/`Phone`/`Pad`/`Computer`）。
+  - **test6**：继承中构造方法细节与 `super()`（`Person`/`Student`/`Teacher`）。
+  - **test7**：`this()` 调用本类其他构造方法（`Student`）。
+  - **test8**：综合继承案例——本科/硕士研究生、专业课/通识课老师。
+  - **test9**：权限修饰符 `private`/`default`/`protected`/`public`。
+
+面向对象高级——多态（`oop_polymorphic`，共 6 个）：
+  - **test**：多态——父类引用指向子类对象，学生/老师/管理员注册场景（`Person`/`Student`/`Teacher`/`Admin`/`StudentMenager`）。
 
 ## 学习笔记
 
@@ -191,7 +201,7 @@ java -cp out com.basic.helloworld.HelloWorld
 
 ## 项目特点
 
-- **示例丰富**：每个知识点都有对应的代码示例（共 142 个源文件）。
+- **示例丰富**：每个知识点都有对应的代码示例（共 163 个源文件）。
 - **注释详细**：代码中包含详细的中文注释与要点说明。
 - **结构清晰**：按"基础语法 → 面向对象"分阶段、分包组织，配有系统化笔记。
 - **适合入门**：从最简概念起步，逐步深入到数组算法与面向对象三大特征。

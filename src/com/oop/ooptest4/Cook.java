@@ -1,0 +1,12 @@
+package com.oop.ooptest4;
+
+public class Cook {
+    String name;
+    int age;
+    int cooklevel;
+
+    public void cooking() {
+        System.out.println(" cook is cooking ");
+    }
+
+}

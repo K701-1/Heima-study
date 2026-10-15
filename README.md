@@ -2,7 +2,7 @@
 
 这是一个 Java 基础学习项目，涵盖了从 Java 语法入门到面向对象编程的核心知识点与示例代码。项目适合 Java 初学者，通过大量循序渐进的代码示例配合中文笔记，帮助掌握 Java 编程的基础概念与面向对象思想。
 
-> 学习来源：黑马程序员 Java + AI 入门课程 ｜ 包路径：`com.basic.*`、`com.opp.*`、`com.opp_advanced.*`
+> 学习来源：黑马程序员 Java + AI 入门课程 ｜ 包路径：`com.basic.*`、`com.oop.*`、`com.oop_advanced.*`、`com.oop_API_string.*`
 
 ## 项目结构
 
@@ -24,15 +24,19 @@ heima/
 │   │   ├── array/               # 数组（15）
 │   │   ├── method/              # 方法（6）
 │   │   └── test/                # 综合练习（2）
-│   ├── opp/                     # 面向对象基础（16 个文件，8 组示例）
-│   │   └── ooptest1 ~ opptest8  # 类与对象、封装、this、构造方法
-│   └── opp_advanced/            # 面向对象进阶与高级（54 个文件）
+│   ├── oop/                     # 面向对象基础（16 个文件，8 组示例）
+│   │   └── ooptest1 ~ ooptest8  # 类与对象、封装、this、构造方法
+│   ├── oop_API_string/          # String 类常用 API（demo1，1）
+│   └── oop_advanced/            # 面向对象进阶与高级（102 个文件）
 │       ├── staticvariabletest/  # static 成员变量（2）
 │       ├── finaltest/           # final 关键字（4）
 │       ├── enumtest/            # 枚举 enum（3）
 │       ├── toolclasstest/       # 静态工具类（2）
 │       ├── oop_extends/         # 继承与方法重写（test1~test9，37）
-│       └── oop_polymorphic/     # 多态（6）
+│       ├── oop_polymorphic/     # 多态（6）
+│       ├── oop_abstract/        # 抽象类与适配器（test1~test2，8）
+│       ├── oop_interface/       # 接口（test1~test6，28）
+│       └── oop_innerclass/      # 内部类（demo1~demo6，12）
 ├── 笔记/                        # 学习笔记（Markdown）
 │   ├── Java基础/                # 8 篇
 │   └── 面向对象/                # 3 篇
@@ -92,20 +96,20 @@ heima/
 #### 14. 综合练习（`com.basic.test`，2 个）
 - **Test1~2.java**：基础语法阶段的综合性编程练习。
 
-### 二、面向对象基础（`com.opp.*`，8 组示例）
+### 二、面向对象基础（`com.oop.*`，8 组示例）
 
 以"JavaBean 类 + 测试类"的形式，循序渐进地讲解面向对象的核心概念：
 
 - **ooptest1（Dog）**：只用属性描述对象，学习创建对象（`类名 对象名 = new 类名();`）与访问属性。
 - **ooptest2（Student）**：常用属性类型选择、属性的默认值。
-- **opptest3（Teacher）**：给类添加行为（成员方法），JavaBean 方法不写 `static`。
-- **opptest4（Cook）**：属性 + 行为的综合示例。
-- **opptest5（Dog）**：封装——`private` 私有化属性，提供 `set`/`get` 方法并做合法性校验。
-- **opptest6（Student）**：`this` 关键字——区分同名的成员变量与局部变量。
-- **opptest7（Student）**：构造方法——空参与全参构造，理解 `new` 时自动调用及重载规则。
-- **opptest8（Student）**：标准 JavaBean 完整模板（私有属性 + 空参 + 全参 + set/get + 行为）。
+- **ooptest3（Teacher）**：给类添加行为（成员方法），JavaBean 方法不写 `static`。
+- **ooptest4（Cook）**：属性 + 行为的综合示例。
+- **ooptest5（Dog）**：封装——`private` 私有化属性，提供 `set`/`get` 方法并做合法性校验。
+- **ooptest6（Student）**：`this` 关键字——区分同名的成员变量与局部变量。
+- **ooptest7（Student）**：构造方法——空参与全参构造，理解 `new` 时自动调用及重载规则。
+- **ooptest8（Student）**：标准 JavaBean 完整模板（私有属性 + 空参 + 全参 + set/get + 行为）。
 
-### 三、面向对象进阶与高级（`com.opp_advanced.*`，54 个文件）
+### 三、面向对象进阶与高级（`com.oop_advanced.*`，102 个文件）
 
 面向对象进阶：
 - **staticvariabletest（2 个）**：`static` 修饰成员变量（静态变量），理解共享、归属类、生命周期，推荐用 `类名.变量名` 调用。
@@ -126,6 +130,26 @@ heima/
 
 面向对象高级——多态（`oop_polymorphic`，共 6 个）：
   - **test**：多态——父类引用指向子类对象，学生/老师/管理员注册场景（`Person`/`Student`/`Teacher`/`Admin`/`StudentMenager`）。
+
+面向对象高级——抽象类（`oop_abstract`，test1~test2，共 8 个）：
+  - **test1**：`abstract` 关键字——抽象类与抽象方法（`Animal`/`Cat`/`Dog`），理解"不能实例化、可含构造方法、子类必须重写所有抽象方法"。
+  - **test2**：适配器模式——`Fu`（5 个抽象方法）→ `FuAdapter`（空重写）→ `Zi`（按需重写），解决"不想全部重写"的问题。
+
+面向对象高级——接口（`oop_interface`，test1~test6，共 28 个）：
+  - **test1**：`interface` 基本语法——`Swim` 接口与 `Animal` 抽象类的分工（is-a vs has-the-ability）。
+  - **test2**：接口成员特点——默认 `public static final` 常量、无构造方法。
+  - **test3**：类与类、类与接口、接口与接口的关系（单继承、多实现、多继承）。
+  - **test4**：综合案例——教练/运动员 + `English` 接口（`Person`/`Coach`/`Sporter` + 篮球/乒乓球 + 说英语）。
+  - **test5**：JDK 8 默认方法 `default`——接口升级不破坏已有实现。
+  - **test6**：JDK 8 静态方法 + JDK 9 私有方法（`private` / `private static`）。
+
+面向对象高级——内部类（`oop_innerclass`，demo1~demo6，共 12 个）：
+  - **demo1**：为什么用内部类（`Car` 内嵌 `Engine`），让类结构更清晰。
+  - **demo2**：成员内部类的注意点与获取方式（JDK16 前不能定义静态变量）。
+  - **demo3**：`Outer.this.成员` 解决同名变量作用域问题。
+  - **demo4**：静态内部类（`static class`），只能直接访问外部类静态成员。
+  - **demo5**：局部内部类（定义在方法内部）。
+  - **demo6**：匿名内部类——`new 类/接口(){重写}`，一次性多态实现。
 
 ## 学习笔记
 
@@ -148,7 +172,7 @@ heima/
 | --- | --- |
 | 面向对象基础.md | 类与对象、封装、this、构造方法、JavaBean 规范 |
 | 面向对象进阶.md | static 成员、final、枚举、静态工具类 |
-| 面向对象高级.md | 继承、重写、多态（整理中） |
+| 面向对象高级.md | 继承、方法重写、抽象类（含适配器）、接口、内部类 |
 
 ## 学习内容
 
@@ -161,7 +185,7 @@ heima/
 6. **方法**：定义与调用、参数与返回值、方法重载。
 7. **面向对象基础**：类与对象、封装（`private` + set/get）、`this`、构造方法、JavaBean 规范。
 8. **面向对象进阶**：`static` 成员、`final` 关键字、枚举、静态工具类。
-9. **面向对象高级**：继承（`extends`）、方法重写（`@Override`）、多态。
+9. **面向对象高级**：继承（`extends`）、方法重写（`@Override`）、多态、抽象类（`abstract`）、接口（`interface`）、内部类。
 10. **输入输出**：`System.out.println()`、`Scanner`。
 
 ### 编码规范
@@ -201,7 +225,7 @@ java -cp out com.basic.helloworld.HelloWorld
 
 ## 项目特点
 
-- **示例丰富**：每个知识点都有对应的代码示例（共 163 个源文件）。
+- **示例丰富**：每个知识点都有对应的代码示例（共 212 个源文件）。
 - **注释详细**：代码中包含详细的中文注释与要点说明。
 - **结构清晰**：按"基础语法 → 面向对象"分阶段、分包组织，配有系统化笔记。
 - **适合入门**：从最简概念起步，逐步深入到数组算法与面向对象三大特征。
@@ -223,7 +247,7 @@ A: 编译时加上 `-encoding UTF-8` 参数（见上方命令行示例）。
 ## 扩展学习
 
 完成本项目后，可以继续学习：
-- 继承体系进阶（`super`、抽象类、接口）
+- Lambda 表达式与函数式接口
 - 集合框架（List、Set、Map）
 - 常用 API、异常处理
 - 文件 IO、多线程编程

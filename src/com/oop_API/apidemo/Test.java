@@ -1,4 +1,4 @@
-package com.oop_API_string.demo1;
+package com.oop_API.apidemo;
 
 //定位 Random 位置
 import java.util.Random;
